@@ -4,7 +4,7 @@ from keras.preprocessing import image
 from keras.models import load_model
 
 # Load the model
-model = load_model("dog_cat_class.h5")
+model = load_model("dog-cat-classifier/dog_cat_class.h5")
 
 # Define a function to make predictions
 def predict_image(img_path):
